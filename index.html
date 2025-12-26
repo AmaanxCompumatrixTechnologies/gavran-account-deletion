@@ -1,181 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Account & Data Deletion</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account & Data Deletion</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      min-height: 100vh;
-      font-family: "Segoe UI", Roboto, Arial, sans-serif;
-      background: linear-gradient(135deg, #ffe259, #ffa751);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-    }
-
-    .card {
-      width: 100%;
-      max-width: 850px;
-      background: linear-gradient(
-        180deg,
-        #ffffff 0%,
-        #f9fff6 100%
-      );
-      border-radius: 20px;
-      padding: 36px;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .card::before {
-      content: "";
-      position: absolute;
-      top: -80px;
-      right: -80px;
-      width: 200px;
-      height: 200px;
-      background: radial-gradient(circle, #c6ffdd, transparent 70%);
-      opacity: 0.7;
-    }
-
-    .card::after {
-      content: "";
-      position: absolute;
-      bottom: -90px;
-      left: -90px;
-      width: 220px;
-      height: 220px;
-      background: radial-gradient(circle, #fbd786, transparent 70%);
-      opacity: 0.7;
-    }
-
-    h1 {
-      margin-top: 0;
-      color: #1d4734;
-      font-size: 30px;
-    }
-
-    h2 {
-      margin-top: 28px;
-      color: #333;
-      font-size: 20px;
-    }
-
-    p {
-      color: #444;
-      line-height: 1.7;
-      font-size: 16px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    li {
-      margin-bottom: 8px;
-      color: #444;
-    }
-
-    .email-box {
-      margin: 16px 0;
-      padding: 14px 18px;
-      background: linear-gradient(135deg, #1d4734, #2f6f4e);
-      color: #ffffff;
-      border-radius: 12px;
-      font-weight: 600;
-      display: inline-block;
-      box-shadow: 0 8px 20px rgba(29, 71, 52, 0.25);
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 6px 14px;
-      background: linear-gradient(135deg, #00c9ff, #92fe9d);
-      color: #0b3d2e;
-      border-radius: 999px;
-      font-size: 13px;
-      font-weight: 600;
-      margin-bottom: 16px;
-    }
-
-    .footer {
-      margin-top: 36px;
-      padding-top: 20px;
-      border-top: 1px solid #e6e6e6;
-      font-size: 14px;
-      color: #666;
-    }
-
-    @media (max-width: 600px) {
-      .card {
-        padding: 26px;
+    <style>
+      * {
+        box-sizing: border-box;
       }
-    }
-  </style>
-</head>
-<body>
 
-  <div class="card">
-    <span class="badge">Account & Data Deletion</span>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Segoe UI", Roboto, Arial, sans-serif;
+        background: linear-gradient(135deg, #ffe259, #ffa751);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
 
-    <h1>Delete Your Account & Personal Data</h1>
+      .card {
+        width: 100%;
+        max-width: 850px;
+        background: linear-gradient(180deg, #ffffff 0%, #f9fff6 100%);
+        border-radius: 20px;
+        padding: 36px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        position: relative;
+        overflow: hidden;
+      }
 
-    <p>
-      This page explains how users of the <strong>Gavran</strong> Android application
-      can request deletion of their account and associated personal data, in accordance
-      with Google Play policies.
-    </p>
+      .card::before {
+        content: "";
+        position: absolute;
+        top: -80px;
+        right: -80px;
+        width: 200px;
+        height: 200px;
+        background: radial-gradient(circle, #c6ffdd, transparent 70%);
+        opacity: 0.7;
+      }
 
-    <h2>How to Request Deletion</h2>
-    <p>
-      Please send an email from your registered email address with the subject
-      <strong>"Account Deletion Request"</strong> to:
-    </p>
+      .card::after {
+        content: "";
+        position: absolute;
+        bottom: -90px;
+        left: -90px;
+        width: 220px;
+        height: 220px;
+        background: radial-gradient(circle, #fbd786, transparent 70%);
+        opacity: 0.7;
+      }
 
-    <div class="email-box">help.gavran2025@gmail.com</div>
+      h1 {
+        margin-top: 0;
+        color: #1d4734;
+        font-size: 30px;
+      }
 
-    <p>
-      Make sure to include your registered email ID or phone number used in the app
-      so we can verify your request.
-    </p>
+      h2 {
+        margin-top: 28px;
+        color: #333;
+        font-size: 20px;
+      }
 
-    <h2>Data That Will Be Deleted</h2>
-    <ul>
-      <li>User account information</li>
-      <li>Profile and personal details</li>
-      <li>Authentication data (including Google Sign-In)</li>
-      <li>Order and activity data linked to the account</li>
-    </ul>
+      p {
+        color: #444;
+        line-height: 1.7;
+        font-size: 16px;
+      }
 
-    <h2>Data Retention</h2>
-    <p>
-      Certain information may be retained temporarily for legal, regulatory, or
-      fraud-prevention purposes. Any retained data will be permanently deleted
-      within <strong>30 days</strong>.
-    </p>
+      ul {
+        padding-left: 20px;
+      }
 
-    <h2>Processing Time</h2>
-    <p>
-      All valid deletion requests are processed within
-      <strong>7 working days</strong>.
-    </p>
+      li {
+        margin-bottom: 8px;
+        color: #444;
+      }
 
-    <div class="footer">
+      .email-box {
+        margin: 16px 0;
+        padding: 14px 18px;
+        background: linear-gradient(135deg, #1d4734, #2f6f4e);
+        color: #ffffff;
+        border-radius: 12px;
+        font-weight: 600;
+        display: inline-block;
+        box-shadow: 0 8px 20px rgba(29, 71, 52, 0.25);
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 6px 14px;
+        background: linear-gradient(135deg, #00c9ff, #92fe9d);
+        color: #0b3d2e;
+        border-radius: 999px;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+
+      .footer {
+        margin-top: 36px;
+        padding-top: 20px;
+        border-top: 1px solid #e6e6e6;
+        font-size: 14px;
+        color: #666;
+      }
+
+      @media (max-width: 600px) {
+        .card {
+          padding: 26px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <span class="badge">Account & Data Deletion</span>
+
+      <h1>Delete Your Account & Personal Data</h1>
+
       <p>
-        For questions or concerns, contact us at
-        <strong>help.gavran2025@gmail.com</strong>.
+        This page explains how users of the <strong>Gavran</strong> Android
+        application can request deletion of their account and associated
+        personal data, in accordance with Google Play policies.
       </p>
-    </div>
-  </div>
 
-</body>
+      <h2>How to Request Deletion</h2>
+      <p>
+        Please send an email from your registered email address with the subject
+        <strong>"Account Deletion Request"</strong> to:
+      </p>
+
+      <h2>Account Deletion Request</h2>
+
+      <p>
+        Users can
+        <strong>delete their account and associated personal data</strong> at
+        any time. To request account deletion, users do not need to reinstall or
+        use the Gavran app.
+      </p>
+
+      <p>
+        Account deletion requests can be submitted by sending an email as
+        described below. Once the request is verified, the user account and
+        associated personal data will be permanently deleted.
+      </p>
+
+      <div class="email-box">help.gavran2025@gmail.com</div>
+
+      <p>
+        Make sure to include your registered email ID or phone number used in
+        the app so we can verify your request.
+      </p>
+
+      <h2>Data That Will Be Deleted</h2>
+      <ul>
+        <li>User account information</li>
+        <li>Profile and personal details</li>
+        <li>Authentication data (including Google Sign-In)</li>
+        <li>Order and activity data linked to the account</li>
+      </ul>
+
+      <h2>Data Retention</h2>
+      <p>
+        Certain information may be retained temporarily for legal, regulatory,
+        or fraud-prevention purposes. Any retained data will be permanently
+        deleted within <strong>30 days</strong>.
+      </p>
+      <p>
+        Associated data will be deleted along with the account after the
+        retention period.
+      </p>
+
+      <h2>Processing Time</h2>
+      <p>
+        All valid deletion requests are processed within
+        <strong>7 working days</strong>.
+      </p>
+
+      <div class="footer">
+        <p>
+          For questions or concerns, contact us at
+          <strong>help.gavran2025@gmail.com</strong>.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
